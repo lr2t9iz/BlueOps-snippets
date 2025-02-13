@@ -3,3 +3,6 @@
 
 # Learn
 - https://tryhackme.com/r/module/advanced-elk
+
+# Practice
+- https://cyberdefenders.org/blueteam-ctf-challenges/gitthegate
