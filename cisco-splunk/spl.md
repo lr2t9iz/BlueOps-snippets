@@ -5,6 +5,11 @@
 `comment("index - top")`
 | eventcount summarize=false index=*
 
+`comment("host - top")`
+index=botsv1
+| stats count by host
+| sort -count
+
 `comment("source - top")`
 index=botsv1
 | stats count by source
@@ -13,5 +18,10 @@ index=botsv1
 `comment("sourcetype - top")`
 index=botsv1
 | stats count by sourcetype
+| sort -count
+
+`comment("summary - source")`
+index=botsv1
+| stats count by host, source, sourcetype
 | sort -count
 ```
