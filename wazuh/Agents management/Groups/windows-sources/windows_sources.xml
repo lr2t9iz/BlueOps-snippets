@@ -1,6 +1,6 @@
 <agent_config>
   <labels>
-    <label key="w1ndows_s0urces-eg">enabled</label>
+    <label key="windows_sources-eg">enabled</label>
   </labels>
 
   <client_buffer>
